@@ -47,7 +47,8 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 
 ## 📊 Metodologi
 - **LSTM**  
-  - Input: 40 hari terakhir (lookback window) 40 artinya: Model menggunakan 40 hari terakhir untuk memprediksi harga pada hari ke-41.
+  - Input: 40 hari terakhir (lookback window) <br>
+40 artinya: Model menggunakan 40 hari terakhir untuk memprediksi harga pada hari ke-41.
 Pemilihan angka 40 dilakukan karena kurang lebih setara dengan 2 bulan hari trading, sehingga cukup untuk menangkap tren jangka pendek. Angka ini adalah hyperparameter dan dapat diubah (misalnya 20, 60, 120) untuk melihat pengaruhnya terhadap performa.
   - Output: harga 1 hari ke depan  
 - **Prophet**  
