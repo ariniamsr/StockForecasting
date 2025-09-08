@@ -1,6 +1,6 @@
 # 📈 Stock Price Forecasting (NVIDIA)
 
-Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, yaitu **LSTM (Long Short-Term Memory)**, **Prophet**, dan **Exponential Smoothing**.
+Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, yaitu **Baseline (Simple Moving Average)**, **LSTM (Long Short-Term Memory)**, **Prophet**, dan **Exponential Smoothing**.
 
 ## 🚀 Fitur
 - **Preprocessing data** dengan MinMaxScaler untuk LSTM
@@ -52,7 +52,11 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
   - Output: prediksi multi-step ke depan  
 - **Exponential Smoothing**  
   - Input: seluruh data historis (Date, Close)  
-  - Output: prediksi multi-step ke depan dengan pola trend/seasonality  
+  - Output: prediksi multi-step ke depan dengan pola trend/seasonality
+- **Baseline – Simple Moving Average (SMA)**
+  - Input: rata-rata harga Open pada periode tertentu (menggunakan log-transform)
+  - Output: prediksi harga berdasarkan rata-rata historis sederhana
+  - Tujuan: sebagai baseline sederhana untuk membandingkan performa model kompleks
 
 ## Hasil & Visualisasi
 
@@ -74,8 +78,10 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 | LSTM         ⭐⭐      | **3.4851** | ⭐  
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
+| Moving Average          | 1.41137    |
 
 📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  
-⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya.
+📝 Dalam eksperimen, baseline Simple Moving Average menghasilkan RMSE lebih rendah dibanding LSTM. Hal ini wajar karena harga saham NVIDIA cenderung memiliki sifat random walk, sehingga metode sederhana seperti MA dapat memberikan prediksi yang kompetitif. Namun, LSTM tetap relevan untuk mengeksplorasi pola non-linear yang tidak dapat ditangkap baseline sederhana <br>
+⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya (kecuali untuk baseline).
 
 
