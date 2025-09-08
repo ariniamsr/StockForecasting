@@ -47,9 +47,9 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
   - Input: seluruh data historis (Date, Close)  
   - Output: prediksi multi-step ke depan dengan pola trend/seasonality  
 
-## 📉 Hasil & Visualisasi
+## Hasil & Visualisasi
 
-### visualisasi 
+### 📉 Visualisasi 
 
 ## LSTM
 ![lmts-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/LSTM.jpg) <br>
@@ -58,13 +58,13 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 ## Exponential Smoothing 
 ![Exponentials-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/EXPONENTIAL%20SMOOTHING.jpg) <br>
 
-### Hasil Evaluasi Model
+### 📝 Hasil Evaluasi Model
 
 Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada validation set:
 
 | Model                   | RMSE       |
 |--------------------------|------------|
-| LSTM                    | **3.4851** |
+| LSTM                    | **3.4851** |   ⭐⭐⭐
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
 
