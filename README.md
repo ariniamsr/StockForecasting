@@ -49,4 +49,4 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 
 ## 📉 Hasil & Visualisasi
 Contoh visualisasi aktual vs prediksi harga saham:
-![lmts-capture]([https://github.com/ariniamsr/StockForecasting/blob/main/assets/LSTM.jpg]) <br>
+![lmts-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/LSTM.jpg) <br>
