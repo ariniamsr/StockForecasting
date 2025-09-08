@@ -68,6 +68,8 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 ![Prophet-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/Prophet.jpg) <br>
 ## Exponential Smoothing 
 ![Exponentials-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/EXPONENTIAL%20SMOOTHING.jpg) <br>
+## Moving Average
+![MA-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/MA.jpg) <br>
 
 ### 📝 Hasil Evaluasi Model
 
@@ -80,8 +82,8 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 | Exponential Smoothing   | 53.9158    |
 | Moving Average          | 1.41137    |
 
-📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  
 📝 Dalam eksperimen, baseline Simple Moving Average menghasilkan RMSE lebih rendah dibanding LSTM. Hal ini wajar karena harga saham NVIDIA cenderung memiliki sifat random walk, sehingga metode sederhana seperti MA dapat memberikan prediksi yang kompetitif. Namun, LSTM tetap relevan untuk mengeksplorasi pola non-linear yang tidak dapat ditangkap baseline sederhana <br>
+📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  <br>
 ⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya (kecuali untuk baseline).
 
 
