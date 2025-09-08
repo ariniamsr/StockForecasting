@@ -1,4 +1,4 @@
-# # 📈 Stock Price Forecasting (NVIDIA)
+# 📈 Stock Price Forecasting (NVIDIA)
 
 Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, yaitu **LSTM (Long Short-Term Memory)**, **Prophet**, dan **Exponential Smoothing**.
 
