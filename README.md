@@ -16,6 +16,7 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 ├── assets
 │   ├── EXPONENTIAL SMOOTHING.jpg
 │   ├── LSTM.jpg
+│   ├── MA.jpg
 │   └── Prophet.jpg
 ├── data
 │   └── Nvidia_stock_data.csv
