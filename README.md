@@ -71,11 +71,11 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 
 | Model                   | RMSE       |
 |-------------------------|------------|
-| LSTM         ⭐⭐      | **3.4851** | ⭐⭐⭐  
+| LSTM         ⭐⭐      | **3.4851** | ⭐  
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
 
 📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  
-Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya.
+⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya.
 
 
