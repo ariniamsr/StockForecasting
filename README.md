@@ -78,7 +78,7 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 
 | Model                   | RMSE       |
 |-------------------------|------------|
-| LSTM         ⭐⭐      | **3.4851** | ⭐  
+| LSTM         ⭐⭐      | **4.5957** | ⭐  
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
 | Moving Average          | 1.41137    |
