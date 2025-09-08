@@ -48,5 +48,11 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
   - Output: prediksi multi-step ke depan dengan pola trend/seasonality  
 
 ## 📉 Hasil & Visualisasi
-Contoh visualisasi aktual vs prediksi harga saham:
+Contoh visualisasi 
+- **LSTM** 
 ![lmts-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/LSTM.jpg) <br>
+- **Prophet**
+![Prophet-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/Prophet.jpg) <br>
+- **Exponential Smoothing**  
+![Exponentials-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/EXPONENTIAL%20SMOOTHING.jpg) <br>
+
