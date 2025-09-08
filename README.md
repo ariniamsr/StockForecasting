@@ -3,6 +3,7 @@
 Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, yaitu **Baseline (Simple Moving Average)**, **LSTM (Long Short-Term Memory)**, **Prophet**, dan **Exponential Smoothing**.
 
 ## 🚀 Fitur
+- **Baseline (Simple Moving Average)**: prediksi harga berdasarkan rata-rata historis sederhana (menggunakan log-transform)
 - **Preprocessing data** dengan MinMaxScaler untuk LSTM
 - **LSTM**: menggunakan 40 hari terakhir untuk memprediksi harga hari berikutnya
 - **Prophet & Exponential Smoothing**: menggunakan seluruh data historis untuk modeling tren dan musiman
@@ -82,8 +83,8 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 | Exponential Smoothing   | 53.9158    |
 | Moving Average          | 1.41137    |
 
-📝 Dalam eksperimen, baseline Simple Moving Average menghasilkan RMSE lebih rendah dibanding LSTM. Hal ini wajar karena harga saham NVIDIA cenderung memiliki sifat random walk, sehingga metode sederhana seperti MA dapat memberikan prediksi yang kompetitif. Namun, LSTM tetap relevan untuk mengeksplorasi pola non-linear yang tidak dapat ditangkap baseline sederhana <br>
-📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  <br>
-⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya (kecuali untuk baseline).
+- 📝 Dalam eksperimen, baseline Simple Moving Average menghasilkan RMSE lebih rendah dibanding LSTM. Hal ini wajar karena harga saham NVIDIA cenderung memiliki -sifat random walk, sehingga metode sederhana seperti MA dapat memberikan prediksi yang kompetitif. Namun, LSTM tetap relevan untuk mengeksplorasi pola non-linear yang tidak dapat ditangkap baseline sederhana <br>
+- 📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  <br>
+- ⭐⭐ Pada hasil ini, **LSTM** memberikan performa terbaik dibandingkan model lainnya (kecuali untuk baseline).
 
 
