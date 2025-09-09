@@ -13,7 +13,7 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 ## 📂 Struktur Project
 ```
 .
-├── assets
+├── pics
 │   ├── EXPONENTIAL SMOOTHING.jpg
 │   ├── LSTM.jpg
 │   ├── MA.jpg
@@ -67,13 +67,13 @@ Pemilihan angka 40 dilakukan karena kurang lebih setara dengan 2 bulan hari trad
 ### 📉 Visualisasi 
 
 ## LSTM
-![lmts-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/LSTM.jpg) <br>
+![lmts-capture](https://github.com/ariniamsr/StockForecasting/blob/main/pics/LSTM.jpg) <br>
 ## Prophet
-![Prophet-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/Prophet.jpg) <br>
+![Prophet-capture](https://github.com/ariniamsr/StockForecasting/blob/main/pics/Prophet.jpg) <br>
 ## Exponential Smoothing 
-![Exponentials-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/EXPONENTIAL%20SMOOTHING.jpg) <br>
+![Exponentials-capture](https://github.com/ariniamsr/StockForecasting/blob/main/pics/EXPONENTIAL%20SMOOTHING.jpg) <br>
 ## Moving Average
-![MA-capture](https://github.com/ariniamsr/StockForecasting/blob/main/assets/MA.jpg) <br>
+![MA-capture](https://github.com/ariniamsr/StockForecasting/blob/main/pics/MA.jpg) <br>
 
 ### 📝 Hasil Evaluasi Model
 
@@ -81,7 +81,7 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 
 | Model                   | RMSE       |
 |-------------------------|------------|
-| LSTM         ⭐⭐      | **4.5957** | ⭐  
+| LSTM         ⭐⭐      | **3.5477** | ⭐  
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
 | Moving Average          | 1.41137    |
