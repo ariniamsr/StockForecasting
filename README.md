@@ -81,10 +81,10 @@ Berikut adalah hasil perbandingan nilai **RMSE (Root Mean Squared Error)** pada 
 
 | Model                   | RMSE       |
 |-------------------------|------------|
-| LSTM         ⭐⭐      | **3.5477** | ⭐  
+| LSTM         ⭐⭐      | **3.9581** | ⭐  
 | Prophet                 | 49.3404    |
 | Exponential Smoothing   | 53.9158    |
-| Moving Average          | 1.41137    |
+| Moving Average          | 1.4115     |
 
 - 📝 Dalam eksperimen, baseline Simple Moving Average menghasilkan RMSE lebih rendah dibanding LSTM. Hal ini wajar karena harga saham NVIDIA cenderung memiliki sifat random walk *(harga besok ≈ harga hari ini + faktor acak kecil)*, sehingga metode sederhana seperti MA dapat memberikan prediksi yang kompetitif. Namun, LSTM tetap relevan untuk mengeksplorasi pola non-linear yang tidak dapat ditangkap baseline sederhana <br>
 - 📌 Semakin rendah nilai RMSE, semakin baik performa model dalam melakukan prediksi.  <br>
