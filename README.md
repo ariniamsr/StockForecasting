@@ -13,15 +13,15 @@ Proyek ini membandingkan beberapa metode untuk memprediksi harga saham NVIDIA, y
 ## 📂 Struktur Project
 ```
 .
+├── data
+│   └── Nvidia_stock_data.csv
+├── notebook
+│   └── Stock_Forecasting_NVIDIA.ipynb
 ├── pics
 │   ├── EXPONENTIAL SMOOTHING.jpg
 │   ├── LSTM.jpg
 │   ├── MA.jpg
 │   └── Prophet.jpg
-├── data
-│   └── Nvidia_stock_data.csv
-├── notebook
-│   └── Stock_Forecasting_NVIDIA.ipynb
 ├── README.md
 └── requirements.txt
 ```
